@@ -1,0 +1,21 @@
+{
+  "name": "serverless-plugin-tree-shake-demo",
+  "version": "1.0.0",
+  "description": "Demo project to reproduce the problem with the serverless-plugin-tree-shake plugin",
+  "main": "serverless.ts",
+  "author": "Andriy Simonov",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.13.0",
+    "@aws-sdk/util-dynamodb": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/serverless": "^1.78.25",
+    "serverless": "^2.35.0",
+    "serverless-offline": "^6.9.0",
+    "serverless-plugin-tree-shake": "^1.1.11",
+    "serverless-plugin-typescript": "^1.1.9",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  }
+}
